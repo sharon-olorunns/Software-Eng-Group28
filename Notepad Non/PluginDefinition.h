@@ -23,12 +23,8 @@
 //
 #include "PluginInterface.h"
 
-//-------------------------------------//
-//-- STEP 1. DEFINE YOUR PLUGIN NAME --//
-//-------------------------------------//
-// Here define your plugin name
-//
-const TCHAR NPP_PLUGIN_NAME[] = TEXT("Notepad++ plugin demo");
+
+const TCHAR NPP_PLUGIN_NAME[] = TEXT("Dragbase Notepad++ plugin");
 
 //-----------------------------------------------//
 //-- STEP 2. DEFINE YOUR PLUGIN COMMAND NUMBER --//
@@ -36,7 +32,7 @@ const TCHAR NPP_PLUGIN_NAME[] = TEXT("Notepad++ plugin demo");
 //
 // Here define the number of your plugin commands
 //
-const int nbFunc = 16;
+const int nbFunc = 1;
 
 
 //
