@@ -1,1 +1,21 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Unicode Realeas\) contains files shared from another project (NppPluginDemo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GoToLineDlg.cpp
+  StaticDialog.cpp
+  NppPlugin.cpp
+NppPlugin.cpp(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+NppPlugin.cpp(76): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(89): note: see declaration of 'strcat'
+NppPlugin.cpp(72): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdlib.h(1014): note: see declaration of 'wcstombs'
+NppPlugin.cpp(77): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdlib.h(926): note: see declaration of 'mbstowcs'
+NppPlugin.cpp(65): warning C4101: 'file_extension': unreferenced local variable
+  PluginDefinition.cpp
+PluginDefinition.cpp(340): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wstdlib.h(64): note: see declaration of '_itow'
+PluginDefinition.cpp(372): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wstdlib.h(64): note: see declaration of '_itow'
+  Generating Code...
+     Creating library .\bin\NppPluginDemo.lib and object .\bin\NppPluginDemo.exp
+  NppPluginDemo.vcxproj -> C:\CS2013\Dragbase for  Notepad++\Dragbase for  Notepad++\Notepad Non\.\bin\DragbaseForNotepadpp.dll

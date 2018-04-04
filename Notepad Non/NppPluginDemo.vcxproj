@@ -87,6 +87,7 @@
     <OutDir>.\bin\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>DragbaseForNotepadpp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
     <OutDir>$(Configuration)\</OutDir>
@@ -148,7 +149,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>shlwapi.lib;dragbase32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)NppPluginDemo.dll</OutputFile>
+      <OutputFile>$(OutDir)DragbaseForNotepadpp.dll</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
