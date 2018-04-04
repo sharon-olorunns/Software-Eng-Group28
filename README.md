@@ -1,3 +1,7 @@
+# Dragbase
+
+Dragbase is a library, written in C, which adds enhanced drag-and-drop functionality to your Windows software - independently of the programming language your software is written in. It takes a few minutes to integrate Dragbase into your software. With dragbase, users can drag-and-drop the currently opened file to any other application. For instance, the file, respectively the icon, could be dropped in the Windows Explorer to a certain directory and the file would be saved in this directory. Or the file could be dropped in Microsoft Outlook and then a new email would be created with the file as attachment.
+
 What is Notepad++ ?
 ===================
 
@@ -9,78 +13,36 @@ editor and Notepad replacement that supports several programming languages and
 natural languages. Running in the MS Windows environment, its use is governed by
 GPL License.
 
-Build Status
-------------
 
-[![Appveyor build status](https://ci.appveyor.com/api/projects/status/github/notepad-plus-plus/notepad-plus-plus?branch=master&svg=true)](https://ci.appveyor.com/project/donho/notepad-plus-plus)
-[![GitHub release](https://img.shields.io/github/release/notepad-plus-plus/notepad-plus-plus.svg)]()
+## Getting Started
 
-To build Notepad++ from source:
--------------------------------
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-There are two components that need to be built separately:
+### Prerequisites
 
- - `notepad++.exe`: (depends on `SciLexer.dll`)
- - `SciLexer.dll` : (with nmake)
+There are three components that need to be downloaded onto the system for the Dragbase to work:
 
-You can build Notepad++ with *or* without Boost - The release build of
-Notepad++ is built **with** Boost.
+ - `Notepad++ 32-bit
+ - `Visual Studio
+ - `Dragbase
 
-Since `Notepad++` version 6.0, the build of `SciLexer.dll` that is distributed
-uses features from Boost's `Boost.Regex` library.
 
-You can build SciLexer.dll without Boost, ie. with its default POSIX regular
-expression support instead of boost's PCRE one. This is useful if you would
-like to debug Notepad++, but don't have boost.
-
-## To build `notepad++.exe`:
-
- 1. Open [`PowerEditor\visual.net\notepadPlus.vcxproj`](https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/visual.net/notepadPlus.vcxproj)
- 2. Build Notepad++ [like a normal Visual Studio project](https://msdn.microsoft.com/en-us/library/7s88b19e.aspx).
+### Installing
 
 
 
-## To build `SciLexer.dll` with boost:
+## Built With
 
-Here are the instructions to build SciLexer.dll (for both 32-bit & 64-bit) for Notepad++:
-
- 1. Download the [Boost source code](https://sourceforge.net/projects/boost/files/boost/1.55.0/).
-    v1.55 should be used with VS 2013. Then unzip it. In my case, `boost_1_55_0` is copied in `C:\sources\`
- 2. Go to `scintilla\boostregex\` then run BuildBoost.bat with your boost path.
-    In my case: `BuildBoost.bat C:\sources\boost_1_55_0`
-	If you are compiling a 64 bit Scintilla under your *VS2013 x64 Native tool command prompt*, add `-x64` flag.
-	In my case: `BuildBoost.bat C:\sources\boost_1_55_0 -x64`
- 3. Go in `scintilla\win32\` then run `nmake -f scintilla.mak`
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
 
-## To build `SciLexer.dll` *without* boost:
+## Versioning
 
-This will work with `notepad++.exe`, however some functionality in Notepad++ will be broken.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-To build SciLexer.dll without PCRE support (for both 32-bit & 64-bit):
-
- 1. For 32-bit, open a command prompt *for building* ([a.k.a. the *Developer Command Prompt for VS2013*](https://msdn.microsoft.com/en-us/library/f2ccy3wt.aspx))
-    - From the IDE, you can do this by right clicking on a file in Solution Explorer,
-      and clicking "Open Command Prompt". This will open up a command prompt with all the proper environment variables.
-    - From the Windows Start screen/menu, type `Developer Command Prompt for VS2013`,
-      and click/select the result.
-    - From an *already open* command prompt, run `vcvarsall.bat`
-      (e.g. "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat").
-
-	For 64-bit, open *VS2013 x64 Native tool command prompt*.
-
- 2. Change directory (`cd` or `pushd`) to `scintilla\win32\`
-
- 3. Build `SciLexer.dll` with one of the following commands:
-    - `nmake NOBOOST=1 -f scintilla.mak`         (normal build)
-    - `nmake NOBOOST=1 DEBUG=1 -f scintilla.mak` (debugging build)
-
- 4. Copy `SciLexer.dll` from `scintilla\bin\` to the same directory as `notepad++.exe`.
-    - For the `Unicode Release` configuration, the output directory
-      (where `notepad++.exe` is) is `PowerEditor\bin\`.
-    - For the `Unicode Debug` configuration, the output directory
-      (where `notepad++.exe` is) is `PowerEditor\visual.net\Unicode Debug\`.
 
 
 See the [Notepad++ official site](https://notepad-plus-plus.org/) for more information.
