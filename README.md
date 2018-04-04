@@ -62,6 +62,7 @@ Dragbase is a plugin that can be integrated into Notepad++
   7. Open Program Files(x86) located on the drive
   8. Navigate to the Notepad++ folder and open it
   9. Open the plugin folder in the Notepad++ folder and paste the DragbaseForNotepadpp.dll file into the plugin folder.
+  10. Open Notepad++
 
 
 ## Built With
