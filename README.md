@@ -23,9 +23,8 @@ GPL License.
                          1. Define your plugin name in "PluginDefinition.h"
                          2. Define your plugin commands number in "PluginDefinition.h"
                          3. Customize plugin commands names and associated function name (and the other stuff, optional) in                                         "PluginDefinition.cpp".
-                         4. Define the associated functions                         
-                 
-                 [For more information about plugin development, please check here: http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Plugin_Development](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Plugin_Development)
+                         4. Define the associated functions                      
+                  [![For more information about plugin development, please check here: http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Plugin_Development](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Plugin_Development)]
                  
   - PowerEditor - ...
   - Scintilla - Scintilla can be built by itself.
