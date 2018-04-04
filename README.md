@@ -22,13 +22,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 There are three components that need to be downloaded onto the system for the Dragbase to work:
 
- - `Notepad++ 32-bit
- - `Visual Studio
- - `Dragbase
+ - Notepad++ 32-bit
+ - Visual Studio
+ - Dragbase
 
 
 ### Installing
 
+Dragbase is a plugin that can be integrated into Notepad++
+
+  1. Download [Dragbase](http://dragbase.com/download.php) 
 
 
 ## Built With
