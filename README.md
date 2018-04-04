@@ -14,6 +14,26 @@ natural languages. Running in the MS Windows environment, its use is governed by
 GPL License.
 
 
+
+# What's in the GitHub Folder
+
+  - Installer/Dragbase Installer - The Dragbase Plugin installer for Windows
+  - Notepad Non - This template is done for making plugin development as easy and simple as possible.
+                  A simple plugin can be done through 4 steps, by editing only 2 files (PluginDefinition.h and PluginDefinition.cpp) :
+                         1. Define your plugin name in "PluginDefinition.h"
+                         2. Define your plugin commands number in "PluginDefinition.h"
+                         3. Customize plugin commands names and associated function name (and the other stuff, optional) in                                         "PluginDefinition.cpp".
+                         4. Define the associated functions
+                         
+                 For more information about plugin development, please check here:
+                 (http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Plugin_Development)
+                 
+  - PowerEditor - ...
+  - Scintilla - Scintilla can be built by itself.
+                A C++ compiler is required. Visual Studio 2010 is the development system used for most development although TDM Mingw32                 4.7.1 is also supported.
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
