@@ -16,7 +16,8 @@ GPL License.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
 
 ### Prerequisites
 
@@ -36,9 +37,9 @@ Dragbase is a plugin that can be integrated into Notepad++
   1. Download [Dragbase Repository](https://github.com/dyllew3/Software-Eng-Group28/tree/sharon-olorunns-patch-1)
   2. Download [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html)
   3. Extract the folder
-  4. Open [Software-Eng-Group28/Installer/Dragbase Installer] 
+  4. Open [Software-Eng-Group28/Installer/Dragbase Installer](https://github.com/dyllew3/Software-Eng-Group28/tree/master/Installer/Dragbase%20Installer)
   5. Double-click the Dragbase_Installer file and accept changes to your machine (Don't worry it's safe)
-  6. Navigate to [Software-Eng-Group28/Notepad Non/bin/] folder and copy [DragbaseForNotepadpp.dll]
+  6. Navigate to [Software-Eng-Group28/Notepad Non/bin/](https://github.com/dyllew3/Software-Eng-Group28/tree/new-dll-name/Notepad%20Non/bin) folder and copy DragbaseForNotepadpp.dll
   7. Open Program Files(x86) located on the drive
   8. Navigate to the Notepad++ folder and open it
   9. Open the plugin folder in the Notepad++ folder and paste the DragbaseForNotepadpp.dll file into the plugin folder.
