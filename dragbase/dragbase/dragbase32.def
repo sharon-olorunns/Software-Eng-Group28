@@ -1,0 +1,4 @@
+LIBRARY	"dragbase32"
+EXPORTS
+	Create
+	SetFilename

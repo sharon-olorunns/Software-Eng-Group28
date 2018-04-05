@@ -1,0 +1,4 @@
+LIBRARY	"dragbase64"
+EXPORTS
+	Create
+	SetFilename
